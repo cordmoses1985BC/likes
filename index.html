@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        Network
+    </div>
+    <h2>Your Feed</h2>
+    <div class="main">
+        <div class="left-box">
+            <img src="user-circle.png" alt="user-circle">
+            <a href="#">Add an avatar</a>
+            <p>James Doe</p>
+        </div>
+        <div class="right-box">
+            <div class="toplike">
+                <div class="namesandlikes">
+                    <div class="name">Neil M
+                    </div>
+                    <div class="toplikes">    
+                        <span class = "number" id = "topLikeButton">9</span>
+                        <p>like(s)</p>
+                        <button onclick="addaliketop()">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+            <div class="middlelike">
+                <div class="namesandlikes">
+                    <div class="name">Nichole K
+                    </div>
+                    <div class="middlelikes">
+                        <p class = "number" id="middlelikebutton">12 </p>
+                        <p>like(s)</p>
+                        <button onclick="addalikemiddle()">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="bottomlike">
+                <div class="namesandlikes">
+                    <div class="name">Jim R
+                    </div>
+                    <div class="bottomlikes">
+                        <p class = "number" id="bottomlikebutton">9 </p>
+                        <p>like(s)</p>
+                        <button onclick="addalikebottom()">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
